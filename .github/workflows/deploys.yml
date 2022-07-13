@@ -19,7 +19,7 @@ jobs:
       - name: Build
         run: npm run build
       - name: Generate 404.html file
-        run: cp dist/index.html dist/planetsFact/404.html
+        run: cp dist/index.html dist/404.html
       - name: Archive build
         if: success()
         uses: actions/upload-artifact@v1
