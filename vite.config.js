@@ -9,6 +9,7 @@ export default defineConfig({
       defaultExport: "component",
     }),
   ],
+  base: './',
   build: {
     target: "esnext",
     polyfillDynamicImport: false,
