@@ -1,0 +1,89 @@
+.containerMenu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5em;
+  border-bottom: rgba(151, 151, 151, 0.2) 1px solid;
+}
+
+.iconMenu {
+  width: 24px;
+  height: 17px;
+}
+
+.iconMenu > svg > path {
+  fill: #979797;
+}
+
+.title {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 28px;
+  margin: 0;
+}
+
+.containerLink {
+  background-color: var(--blueDark);
+  height: calc(100vh - 68px);
+  position: fixed;
+  top: 68px;
+  left: 0;
+  right: 0;
+  z-index: 10;
+}
+
+.planetList {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0;
+  padding: 1em;
+  animation: fadein 2s;
+}
+
+.planetItem {
+  text-transform: uppercase;
+  list-style: none;
+  border-bottom: rgba(151, 151, 151, 0.2) 1px solid;
+  padding: 1.5em;
+  opacity: 0.8;
+}
+
+.planetItem:hover {
+  opacity: 1;
+}
+
+.planetName {
+  display: flex;
+}
+
+.roundColor {
+  border-radius: 50%;
+  height: 20px;
+  width: 20px;
+  margin-right: 20px;
+}
+
+.planetLink {
+  transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
+  text-decoration: none;
+  color: var(--white);
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+@keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 0.8;
+  }
+}

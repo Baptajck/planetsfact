@@ -1,0 +1,55 @@
+:root {
+  --white: #fff;
+  --blueDark: #070724;
+  --gray: #38384f;
+  --lightGray: #838391;
+  --lightBlue: #419ebb;
+  --yellow: #eda249;
+  --purple: #6f2ed6;
+  --orange: #d14c32;
+  --red: #d83a34;
+  --lightOrange: #cd5120;
+  --lightGreen: #1ec2a4;
+  --blue: #2d68f0;
+}
+
+body {
+  font-family: "Spartan", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 25px;
+  background-color: var(--blueDark);
+  color: var(--white);
+  margin: 0;
+}
+
+h1 {
+  font-family: "Antonio", sans-serif;
+  font-size: 80px;
+  line-height: 103px;
+  font-weight: 500;
+}
+
+h2 {
+  font-family: "Antonio", sans-serif;
+  font-size: 40px;
+  line-height: 52px;
+  letter-spacing: -1.5px;
+  font-weight: 500;
+}
+
+h3 {
+  font-family: "Spartan", sans-serif;
+  font-size: 12px;
+  line-height: 25px;
+  letter-spacing: 2.6px;
+  font-weight: 700;
+}
+
+h4 {
+  font-family: "Spartan", sans-serif;
+  font-size: 11px;
+  line-height: 25px;
+  letter-spacing: 1px;
+  font-weight: 700;
+}
